@@ -1,5 +1,5 @@
 # MLProject
-Title: Celiac Disease Prediction Using Machine Learning
+# Title: Celiac Disease Prediction Using Machine Learning
 ## Introduction
 Celiac disease is an autoimmune disorder triggered by gluten, causing digestive issues. Early detection is crucial for effective management. This project aims to develop a robust ML model to predict celiac disease risk, improving diagnostic accuracy and facilitating proactive management
 
