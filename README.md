@@ -1,17 +1,17 @@
 # MLProject
 # Title: Celiac Disease Prediction Using Machine Learning
-## Introduction
+### Introduction
 Celiac disease is an autoimmune disorder triggered by gluten, causing digestive issues. Early detection is crucial for effective management. This project aims to develop a robust ML model to predict celiac disease risk, improving diagnostic accuracy and facilitating proactive management
 
-## Data Collection and Processing
+### Data Collection and Processing
 The dataset, sourced from Kaggle, includes genetic markers, clinical symptoms, and demographic information. Preprocessing steps, including handling missing values with dropna(), ensured data quality.
 
-## Feature Selection
+### Feature Selection
 Key features were selected using Correlation Heatmap Analysis and Information Gain Calculation to identify the most informative features, reducing redundancy and enhancing predictive accuracy
 
-## Model Selection
+### Model Selection
 Various models were evaluated:
-## Model Selection
+### Model Selection
 
 | Model                | Accuracy (%) | Confusion Matrix     |
 |----------------------|--------------|----------------------|
@@ -21,7 +21,7 @@ Various models were evaluated:
 | Logistic Regression  | 86.65        | [[ 37, 32], [ 12, 361]] |
 
 
-## Model Description
+### Model Description
 1.Import Libraries
 2.Read Dataset
 3.Data Cleaning (dropna())
@@ -33,13 +33,13 @@ Various models were evaluated:
 9.Model Evaluation
 10.Tree Visualization and Optimization
 
-## Testing and Evaluation
+### Testing and Evaluation
 The model was assessed using accuracy, precision, recall, F1-score, and confusion matrix metrics from scikit-learn.
 
-## Results
+### Results
 The Random Forest model achieved 95.46% accuracy. Key features included Age, Abdominal Symptoms, Short Stature, Weight Loss, IgA Levels, and IgG Levels. The optimized model maintained high accuracy (92.44%), demonstrating stability and reliability.
 
-## Conclusion
+### Conclusion
 Our ML model for celiac disease prediction achieved 95% accuracy, offering significant insights into key diagnostic factors. This approach enhances clinical decision-making and lays the foundation for advancements in personalized medicine and targeted interventions.
 
 
